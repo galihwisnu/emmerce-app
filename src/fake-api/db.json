@@ -1,0 +1,317 @@
+{
+  "users": [
+    {
+      "fullName": "Galih Wisnu",
+      "username": "galzjak",
+      "email": "galih@mail.com",
+      "password": "password",
+      "role": "user",
+      "id": 1
+    },
+    {
+      "fullName": "Diana Novita",
+      "username": "dian",
+      "email": "dian@mail.com",
+      "password": "password",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "fullName": "Surinala",
+      "username": "suri123",
+      "email": "suri@mail.com",
+      "password": "password",
+      "role": "admin",
+      "id": 3
+    },
+    {
+      "fullName": "Jampang",
+      "username": "jams",
+      "email": "jams@mail.com",
+      "password": "pass",
+      "role": "user",
+      "id": 4
+    }
+  ],
+  "transactions": [
+    {
+      "userId": 4,
+      "address": "cengkareng",
+      "recipientName": "jampang",
+      "totalPrice": 666750,
+      "totalPayment": 700000,
+      "transactionDate": "12-6-2021",
+      "transactionItems": [
+        {
+          "userId": 4,
+          "productId": 1,
+          "price": 135000,
+          "productName": "Kaos Putih",
+          "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCCVMF5ngp9Mk32XU6zerPYfiWPguHQoYOaA&usqp=CAU",
+          "quantity": 4,
+          "id": 3
+        },
+        {
+          "userId": 4,
+          "productId": 11,
+          "price": 95000,
+          "productName": "Topi Merah",
+          "productImage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTCscA1rptiqGtFpK99P6VYRz5BR26ZhFUN8vGl45RNsXtCJ1aup2nuTtAqYIA5xyQByBpM4oFp3BheFlAhGiHrU1jEzeV2BtAsHdjSUcHu&usqp=CAE",
+          "quantity": 1,
+          "id": 5
+        }
+      ],
+      "id": 1
+    },
+    {
+      "userId": 4,
+      "address": "cengkareng",
+      "recipientName": "jampang",
+      "totalPrice": 666750,
+      "totalPayment": 700000,
+      "transactionDate": "12-7-2021",
+      "transactionItems": [
+        {
+          "userId": 4,
+          "productId": 1,
+          "price": 135000,
+          "productName": "Kaos Putih",
+          "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCCVMF5ngp9Mk32XU6zerPYfiWPguHQoYOaA&usqp=CAU",
+          "quantity": 4,
+          "id": 3
+        },
+        {
+          "userId": 4,
+          "productId": 11,
+          "price": 95000,
+          "productName": "Topi Merah",
+          "productImage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTCscA1rptiqGtFpK99P6VYRz5BR26ZhFUN8vGl45RNsXtCJ1aup2nuTtAqYIA5xyQByBpM4oFp3BheFlAhGiHrU1jEzeV2BtAsHdjSUcHu&usqp=CAE",
+          "quantity": 1,
+          "id": 5
+        }
+      ],
+      "id": 2
+    },
+    {
+      "userId": 4,
+      "address": "cengkareng",
+      "recipientName": "jampang",
+      "totalPrice": 666750,
+      "totalPayment": 700000,
+      "transactionDate": "12-7-2021",
+      "transactionItems": [
+        {
+          "userId": 4,
+          "productId": 1,
+          "price": 135000,
+          "productName": "Kaos Putih",
+          "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCCVMF5ngp9Mk32XU6zerPYfiWPguHQoYOaA&usqp=CAU",
+          "quantity": 4,
+          "id": 3
+        },
+        {
+          "userId": 4,
+          "productId": 11,
+          "price": 95000,
+          "productName": "Topi Merah",
+          "productImage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTCscA1rptiqGtFpK99P6VYRz5BR26ZhFUN8vGl45RNsXtCJ1aup2nuTtAqYIA5xyQByBpM4oFp3BheFlAhGiHrU1jEzeV2BtAsHdjSUcHu&usqp=CAE",
+          "quantity": 1,
+          "id": 5
+        }
+      ],
+      "id": 3
+    },
+    {
+      "userId": 4,
+      "address": "cengkareng",
+      "recipientName": "jampang",
+      "totalPrice": 425250,
+      "totalPayment": 430000,
+      "transactionDate": "12-7-2021",
+      "transactionItems": [
+        {
+          "userId": 4,
+          "productId": 19,
+          "price": 135000,
+          "productName": "Jersey Klasik",
+          "productImage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQSBoA_Zuqg0G92DwE60xMz0DKw5sFumg83sEp-LDyJE04YmAWW5THNSt_fAVIMmOBVEE-Pw0vABrbzRnHtAPLFp02JtQKaMpf9TSLwyYw&usqp=CAE",
+          "quantity": 3,
+          "id": 1
+        }
+      ],
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "productName": "Kaos Putih",
+      "price": 135000,
+      "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCCVMF5ngp9Mk32XU6zerPYfiWPguHQoYOaA&usqp=CAU",
+      "description": "Ini Kaos Baggus",
+      "category": "kaos"
+    },
+    {
+      "id": 2,
+      "productName": "Kaos Hitam",
+      "price": 125000,
+      "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNo52PUeo_3hpi8WWbHkGyLg39mzmAfQWvzCNFzu8zoxWk1Exc5bHCt8ELrT8rfM5EO8QlEmLi&usqp=CAc",
+      "description": "Ini Kaos Baggus Bingits",
+      "category": "kaos"
+    },
+    {
+      "id": 3,
+      "productName": "Kaos Hijau",
+      "price": 135000,
+      "productImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT-42q7uC7iOFWEsyxdhVTllcPTUhfhm4zOb6pNx-duoje5b6AXluusTAu-cC9TRdEB82eyqWYr5pjHv1oZnGn0WujiZ-paCZtiZZkF_HEGbFXWofamfbggow&usqp=CAE",
+      "description": "Ini Kaos Baggus",
+      "category": "kaos"
+    },
+    {
+      "id": 4,
+      "productName": "Kaos Merah",
+      "price": 125000,
+      "productImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQIudmsDjZ-gFi8lwQUvfHGwCPE1kDGIpoTy1tlLjvnIHFhZLe8Q4ekSKX4GUMTB6i-zXoTGAwr7hE86NDTjx9KMfJa02eephU0z6Qc9T8yJxJUwUSrnAEq&usqp=CAE",
+      "description": "Ini Kaos Baggus Bingits",
+      "category": "kaos"
+    },
+    {
+      "id": 5,
+      "productName": "Celana Cargo Olive",
+      "price": 235000,
+      "productImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRWcBnnYsjLPu2asj4ix0dhpUCh9_paakgfRycbEngg8XbxKDp8JCd84qNxI0X0ryphJOBceumqVi1aLrZogH1Ye39sGnZKT_s3T3848ho7jR2_RIUYt_SYeg&usqp=CAE",
+      "description": "Ini Kaos Baggus",
+      "category": "kaos"
+    },
+    {
+      "id": 6,
+      "productName": "Celana Cargo Khaki",
+      "price": 225000,
+      "productImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQDMZ9OORDZvCZwozEeDPDbLY8gSIu3ynWjjp2ufSFAH3ScGAg4LuIU-JBU33x2LESybfLdqzNY0QIks-LNn0iRMpo_szAAf16m7Xsjz4w&usqp=CAE",
+      "description": "Ini Kaos Baggus Bingits",
+      "category": "kaos"
+    },
+    {
+      "id": 7,
+      "productName": "Celana Cargo Cream",
+      "price": 235000,
+      "productImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR4-gJlI0CTtn6Gzq6FNdlTS7wBcc0vUAiCwd8BIYllaW1ouqSoaxcszJq90_sK6RrSqbzEvV3QxqlRT1mx-ff1BfNxLV6jlkj4_9ILkrs&usqp=CAE",
+      "description": "Ini Kaos Baggus",
+      "category": "kaos"
+    },
+    {
+      "id": 8,
+      "productName": "Celana Cargo Darkgrey",
+      "price": 225000,
+      "productImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSA7uMvwY4F9SxYWkFeONcyoK11bq3hDz8MUGF5FZ5P1wL8j-Z4rWV9IOeZBhNDXO6kLLtH-4mMcc1jhD0WZ3jN3LHbZAo62YUC9DyIcCmQPcOtCLxyofox&usqp=CAE",
+      "description": "Ini Kaos Baggus Bingits",
+      "category": "kaos"
+    },
+    {
+      "id": 9,
+      "productName": "Jaket Hitam",
+      "price": 275000,
+      "productImage": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRFl3c1XsmawaehqcFWSYrUTpAN6sEP9FuiBugtAMg6HrGyl1g8Cv8EH__WjGCpq-TnIBw2WVllmGaVJZFo6Ui4q3J6RK1bLoxsbaIMagjzbE7-YaNIl0d1&usqp=CAE",
+      "description": "Ini Kaos Baggus",
+      "category": "kaos"
+    },
+    {
+      "id": 10,
+      "productName": "Hoodie Hitam",
+      "price": 275000,
+      "productImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRJVbPnXzMzojVO7oEBVJJjxFdjvoGm7bwQyZXpjGGAazABSMbCfd_kqKw6OA61N8ouPqaTtizBqaXxJtqGBjZB1hmuJA5g3ndE41GLH-fZzd9rFfiB6XAk&usqp=CAE",
+      "description": "Ini Kaos Baggus Bingits",
+      "category": "kaos"
+    },
+    {
+      "id": 11,
+      "productName": "Topi Merah",
+      "price": 95000,
+      "productImage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTCscA1rptiqGtFpK99P6VYRz5BR26ZhFUN8vGl45RNsXtCJ1aup2nuTtAqYIA5xyQByBpM4oFp3BheFlAhGiHrU1jEzeV2BtAsHdjSUcHu&usqp=CAE",
+      "category": "kaos"
+    },
+    {
+      "id": 12,
+      "productName": "Topi Army",
+      "price": 95000,
+      "productImage": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSnLPMlu3voQS9pINOlf5mtVHbEAlzWY_R0CKMl0oE1JYz0imd7KEt8Ke-H9_wml1vofyz2fXa-Yn2oiJF1axUjeldgRQRLztdb3GqfsQvkohL6Jjgb8Sz_&usqp=CAY",
+      "description": "Ini Kaos Baggus Bingits",
+      "category": "kaos"
+    },
+    {
+      "id": 13,
+      "productName": "Jersey Baru",
+      "price": 135000,
+      "productImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSZnnlz2aXHqMjbavKpmYvUZUt6G189wgNGJ6k4grT14xxO-nlAGRqZ2lkfZI1fCN6c8KMWfhMo38qvlkMEuhRiWymqYlE2DIk0BsRWjY5d4qCU3F10SNnHMg&usqp=CAE",
+      "description": "Ini Kaos Baggus",
+      "category": "kaos"
+    },
+    {
+      "id": 14,
+      "productName": "Jersey Training",
+      "price": 125000,
+      "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMwV__wXmNPUEIzCH0pJPOJZq9AZitRga7PA&usqp=CAU",
+      "description": "Ini Kaos Baggus Bingits",
+      "category": "kaos"
+    },
+    {
+      "id": 15,
+      "productName": "Jersey Menpora",
+      "price": 135000,
+      "productImage": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTd0_8Svfq7STaBsCTrU1YrnLYuvAkENPLJyIdd8CrJu2UhZK1b6gjshvF4NG5U2UpNLrWI0XCHa0ZHUItc6eez-x6nmK-e11Pp2vKDd4ZA&usqp=CAE",
+      "description": "Ini Kaos Baggus",
+      "category": "kaos"
+    },
+    {
+      "id": 16,
+      "productName": "Jersey Specs",
+      "price": 115000,
+      "productImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT_zzyQM7HN1GtEeg6PxRjuXQsde0f0YYRMgVVT3xImyRzIF3l3KucJui-iBN2G_ahpMOkbEdiY6AawpS1h55eQrOAL5s_iI-PF4beqhyU&usqp=CAE",
+      "description": "Ini Kaos Baggus Bingits",
+      "category": "kaos"
+    },
+    {
+      "id": 17,
+      "productName": "Jersey 2017",
+      "price": 115000,
+      "productImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSF46AY1Ngk7oP47iFpBfZqIDRzjFwO53D_oWc88Sdva4quEAaK_bEE9ncnTRjgPywDXRVVrxm7hlFHNka_VOE6oUN7AuNFbZrjZAJJldROSgpE2DkMRj-2&usqp=CAE",
+      "description": "Ini Kaos Baggus",
+      "category": "kaos"
+    },
+    {
+      "id": 18,
+      "productName": "Jersey Baru Third",
+      "price": 125000,
+      "productImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRR87io-CHTlrCsYaTQDGrYPbR39aawKVfzAR9BdHMy-_5gCMpd5zxwbsO8trDc0vG0_u0LpiR8l-NwEbGruS44nfcZ7jd_X-Goi2VDYBwd0wI2vQhFP1pV6w&usqp=CAE",
+      "description": "Ini Kaos Baggus Bingits",
+      "category": "kaos"
+    },
+    {
+      "id": 19,
+      "productName": "Jersey Klasik",
+      "price": 135000,
+      "productImage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQSBoA_Zuqg0G92DwE60xMz0DKw5sFumg83sEp-LDyJE04YmAWW5THNSt_fAVIMmOBVEE-Pw0vABrbzRnHtAPLFp02JtQKaMpf9TSLwyYw&usqp=CAE",
+      "description": "Ini Kaos Baggus",
+      "category": "kaos"
+    },
+    {
+      "productName": "Jersey Timnas Baru",
+      "price": 230000,
+      "productImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS2ryuO5-FDC_VOVv3fVPZaMIzkHZNbVDnKUKKf49Tw2zF-RBiVcO2m5_fhGATeK9rKf2WlFpIiU1AS3IhVbTMDP7ihhLPh8BdW38Ka-FK4IbFhd4oYjlRtdQ&usqp=CAE",
+      "description": "Jersey adem",
+      "category": "kaos",
+      "id": 21
+    }
+  ],
+  "carts": [
+    {
+      "userId": 4,
+      "productId": 13,
+      "price": 135000,
+      "productName": "Jersey Baru",
+      "productImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSZnnlz2aXHqMjbavKpmYvUZUt6G189wgNGJ6k4grT14xxO-nlAGRqZ2lkfZI1fCN6c8KMWfhMo38qvlkMEuhRiWymqYlE2DIk0BsRWjY5d4qCU3F10SNnHMg&usqp=CAE",
+      "quantity": 1,
+      "id": 1
+    }
+  ]
+}
